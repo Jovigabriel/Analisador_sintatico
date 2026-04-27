@@ -1,16 +1,9 @@
-class TesteRecuperacao inherits Object {
-
-    metodo_quebrado(x : Int) : Int {
-        if x < 10
-            x + 1
+class Comparador inherits Object {
+    maior(a : Int, b : Int) : Bool {
+        if a < b then
+            false
+        else
+            true
         fi
-    };
-
-    metodo_correto(a : Int, b : Int) : Int {
-        a + b
-    };
-
-    outro_correto() : Bool {
-        true
     };
 };

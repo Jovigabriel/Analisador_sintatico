@@ -1,14 +1,9 @@
-class TesteErros inherits Object {
-    metodo() : Object {
-        let
-            x : Int <- 10,
-            s : String <- "string nao fechada
-        in
-            x + 1
+class Calculadora inherits Object {
+    somar(a : Int, b : Int) : Int {
+        a + b
     };
 
-    outro() : Int {
-        let y : Int <- 5 in
-            y # caractere invalido
+    dobrar(x : Int) : Int {
+        x * 2
     };
 };

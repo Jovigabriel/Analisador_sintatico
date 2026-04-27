@@ -1,2 +1,5 @@
 base_sintatico.txt
 __pycache__/
+sintatico.py
+parser.out
+parsetab.py
